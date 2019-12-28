@@ -6,5 +6,5 @@
     Add new user
 </div>
 ${message?ifExists}
-<@l.login "/registration" true/>>
+<@l.login "/registration" true/>
 </@c.page>
