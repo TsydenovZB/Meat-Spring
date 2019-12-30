@@ -57,7 +57,7 @@ public class UserSevice implements UserDetailsService {
     private void sendMessage(User user) {
         if (!StringUtils.isEmpty(user.getEmail())){
             String message = String.format("Hello, %s! \n" +
-                    "Welcome to Meat. Please visit next link for activation account: http//localhost:8080/activate/%s",
+                    "Welcome to Meat. Please visit next link for activation account: http://localhost:8080/activate/%s",
                     user.getUsername(),
                     user.getActivationCode()
             );
