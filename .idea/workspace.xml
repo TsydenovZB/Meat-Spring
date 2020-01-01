@@ -5,27 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e92d5d7-0318-4485-bdc8-bdd6370d856c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/domain/dto/CaptchaResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/service/UserSevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/service/UserSevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/config/MvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/repos/MessageRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/service/UserSevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/service/UserSevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/repos/MessageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/repos/MessageRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/security.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/security.ftlh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,15 +60,15 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources\db\migration" />
       <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources" />
-      <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources\templates" />
     </key>
   </component>
