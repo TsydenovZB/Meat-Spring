@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e92d5d7-0318-4485-bdc8-bdd6370d856c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_subscriptions_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/subscriptions.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Meat/service/UserSevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Meat/service/UserSevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Meat/service/UserSevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Meat/service/UserSevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userMessages.ftlh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,12 +48,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources\db\migration" />
       <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources" />
+      <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zver\IdeaProjects\Meat\src\main\resources\templates" />
     </key>
   </component>
@@ -85,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LoginTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Meat.Application" />
       <module name="Meat" />
@@ -99,8 +83,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Meat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.Meat" />
+      <option name="MAIN_CLASS_NAME" value="com.example.Meat.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.correctLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Meat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.Meat" />
+      <option name="MAIN_CLASS_NAME" value="com.example.Meat.LoginTest" />
+      <option name="METHOD_NAME" value="correctLoginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Meat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.Meat" />
+      <option name="MAIN_CLASS_NAME" value="com.example.Meat.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.LoginTest.correctLoginTest" />
+        <item itemvalue="JUnit.LoginTest.loginTest" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>

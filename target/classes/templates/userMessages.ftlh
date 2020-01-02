@@ -15,7 +15,7 @@
         <div class="col">
             <div class="card">
                 <div class="card-body">
-                    <div class="card-title">${subscriptionsCount} Subscriptions</div>
+                    <div class="card-title">Subscriptions</div>
                     <h3 class="card-text">
                         <a href="/user/subscriptions/${userChannel.id}/list">${subscriptionsCount}</a>
                     </h3>
