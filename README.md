@@ -1,7 +1,7 @@
 # Meat-Spring
 Twitter-like RESTful application on Spring Boot without JS
 
-##Technologies used:
+## Technologies used:
 - Project builder: **Maven**
 - Registration and authentication: **Spring Security**
 - Database: **PostgreSQL**
