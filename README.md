@@ -7,4 +7,4 @@ Twitter-like RESTful application on Spring Boot without JS
 - Database: **PostgreSQL**
 - Template engine: **Mustache** and  **Freemarker**
 - UI: **Bootstrap**
-- We also used Turbolinks to speed up page rendering
+- Also used **Turbolinks** to speed up page rendering
